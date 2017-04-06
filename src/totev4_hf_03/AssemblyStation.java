@@ -37,7 +37,6 @@ public class AssemblyStation implements Runnable {
 			Future<Boolean> future = executor.submit(task);
 			futures.add(future);
 		}
-		while 
 	}
 
 	public void run() {
